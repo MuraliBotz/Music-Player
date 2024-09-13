@@ -20,25 +20,25 @@ class MotionParticle {
 
     this.shade = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
-    // Glow properties
-    this.glowColor = `hsla(${hue}, ${saturation}%, ${lightness}%, 0.1)`; // Set opacity for the glow
-    this.glowSize = Math.random() * 1 + 1; // Random glow size
+    
+    this.glowColor = `hsla(${hue}, ${saturation}%, ${lightness}%, 0.1)`; 
+    this.glowSize = Math.random() * 1 + 1; 
   }
 
   render() {
     this.graphicsContext.save();
 
-    // Set glow effect
+    
     this.graphicsContext.shadowBlur = this.glowSize;
     this.graphicsContext.shadowColor = this.glowColor;
 
-    // Draw the particle
+
     this.graphicsContext.fillStyle = this.shade;
     this.graphicsContext.beginPath();
     this.graphicsContext.arc(this.x, this.y, this.dimension, 0, Math.PI * 2);
     this.graphicsContext.fill();
 
-    this.graphicsContext.restore(); // Restore to prevent glow affecting other elements
+    this.graphicsContext.restore(); 
   }
 
   shrink() {
