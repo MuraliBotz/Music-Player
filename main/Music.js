@@ -15,7 +15,7 @@ let wave = document.getElementById('wave');
 let randomIcon = document.querySelector('.fa-random');
 let curr_track = document.createElement('audio');
 
-let canvas = document.getElementById('visualizer');  // Canvas for visualization
+let canvas = document.getElementById('visualizer');  
 let ctx = canvas.getContext('2d');
 
 let audioContext;
