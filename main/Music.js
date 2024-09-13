@@ -34,6 +34,11 @@ const music_list = [
         music: 'music/BANALI.mp3'
     },
     {
+        name: 'Jannat ve',
+        artist: 'Darshan Rajval',
+        music: 'music/128-Jannat Ve - Darshan Raval 128 Kbps.mp3'
+    },
+    {
         name: 'BEAUZ',
         artist: 'BEAUZ',
         music: 'music/BEAUZ.mp3'
