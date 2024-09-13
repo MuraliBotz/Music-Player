@@ -22,7 +22,7 @@ var gradientColorsArray = new Array(
 
 );
 
-// Finnally Fixed Colour Changing Background animation 
+
 
 var gradientTransitionStep = 0;
 
