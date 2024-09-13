@@ -20,7 +20,7 @@ body {
 
 
 
- /* Main container to center everything */
+ 
 .main-container {
   position: relative;
   z-index: 1;
@@ -30,7 +30,7 @@ body {
   height: 100vh;
 }
 
-/* Motion particles styling */
+
 
 #gradient {
   position: fixed;
@@ -264,24 +264,24 @@ body {
 
 .visualizer-container {
   position: relative;
-  width: 180px; /* Set width for the container */
-  height: 70px; /* Set height for the container */
+  width: 180px; 
+  height: 70px; 
   display: flex;
   margin-left: -34px;
-/*  margin: 20px auto 0;  */
+
 }
 
 #canvas {
   position: relative;
-  left: 20; /* Move the visualizer all the way to the left */
-  top: 50px; /* Adjust top position to align it properly */
-  width: 600px; /* Adjust the width of the canvas */
-  height: 300px; /* Adjust the height of the canvas */
-  background-color: transparent; /* Set a background color if needed */
+  left: 20; 
+  top: 50px; 
+  width: 600px; 
+  height: 300px;
+  background-color: transparent;
 }
 
 
-/* Common styles for all music icons */
+
 .music-icon {
   position: absolute;
   font-size: 2rem;
@@ -298,10 +298,9 @@ body {
   animation-timing-function: linear;
 }
 
-/* Stagger the animations using nth-child selector */
 .music-icon:nth-child(1) {
   left: -100%;
-  top: 5%; /* Spread the icons randomly across the full screen */
+  top: 5%; 
   font-size: 3rem;
   animation: moveDiagonal 12s linear infinite;
   animation-delay: 0s;
@@ -313,7 +312,7 @@ body {
 
 .music-icon:nth-child(2) {
   left: -100%;
-  top: 25%; /* Spread the icons randomly across the full screen */
+  top: 25%; 
   font-size: 2.5rem;
   animation: moveZigzag 12s linear infinite;
   animation-delay: 1s;
@@ -395,9 +394,7 @@ body {
                0 0 45px rgba(255, 0, 0, 0.4);
 }
 
-/* Keyframes for different movement paths */
 
-/* Diagonal movement from left to right */
 @keyframes moveDiagonal {
   0% {
     transform: translateX(0) translateY(0);
@@ -407,7 +404,7 @@ body {
   }
 }
 
-/* Zigzag movement */
+
 @keyframes moveZigzag {
   0%, 100% {
     transform: translateX(0);
@@ -426,7 +423,7 @@ body {
   }
 }
 
-/* Straight horizontal movement */
+
 @keyframes moveStraight {
   0% {
     transform: translateX(0);
@@ -436,7 +433,7 @@ body {
   }
 }
 
-/* Circular movement */
+
 @keyframes moveCircular {
   0% {
     transform: translateX(0) translateY(0) rotate(0deg);
