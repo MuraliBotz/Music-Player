@@ -29,6 +29,11 @@ let updateTimer;
 
 const music_list = [
     {
+        name: 'Alan Walker Mix',
+        artist: 'Alan Walker',
+        music: 'music/Alone_X_On_My_Way_X_Faded_X_Alone_Pt_2_Alan_Walker_Mashup_Aesthetic.mp3'
+    },
+    {
         name: 'Banali Badalago',
         artist: 'Sonu Nigam',
         music: 'music/BANALI.mp3'
