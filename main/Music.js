@@ -54,6 +54,11 @@ const music_list = [
         music: 'music/Broken.mp3'
     },
     {
+        name: 'warriyo mortals',
+        artist: 'laura brehm',
+        music: 'music/warriyo - mortals [edit audio] ft. (laura brehm)(720P_60FPS).mp3'
+    },
+    {
         name: 'Cartoon On & On',
         artist: 'Cartoon feat. Daniel Levi',
         music: 'music/Cartoon.mp3'
