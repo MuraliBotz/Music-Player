@@ -39,6 +39,11 @@ const music_list = [
         music: 'music/BANALI.mp3'
     },
     {
+        name: 'Andavo Andavu Kannada Nadu',
+        artist: 'Unknown',
+        music: 'music/Andavo Andavu Kannada Naadu Video Song _ Ambarish _ Mallige Hoove Kannada Movie Songs(M4A_128K).m4a'
+    },
+    {
         name: 'Jannat ve',
         artist: 'Darshan Rajval',
         music: 'music/128-Jannat Ve - Darshan Raval 128 Kbps.mp3'
