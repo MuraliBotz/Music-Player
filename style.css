@@ -400,7 +400,7 @@ body {
     transform: translateX(0) translateY(0);
   }
   100% {
-    transform: translateX(150vw) translateY(-110vh); 
+    transform: translateX(250vw) translateY(-110vh); 
   }
 }
 
@@ -409,16 +409,16 @@ body {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(25vw) translateY(15vh);
+    transform: translateX(40vw) translateY(15vh); 
   }
   50% {
-    transform: translateX(50vw) translateY(-20vh);
+    transform: translateX(80vw) translateY(-20vh);
   }
   75% {
-    transform: translateX(75vw) translateY(25vh);
+    transform: translateX(120vw) translateY(25vh);
   }
   100% {
-    transform: translateX(150vw) translateY(-10vh);
+    transform: translateX(250vw) translateY(-10vh); 
   }
 }
 
@@ -427,7 +427,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(150vw); 
+    transform: translateX(250vw); 
   }
 }
 
@@ -436,6 +436,6 @@ body {
     transform: translateX(0) translateY(0) rotate(0deg);
   }
   100% {
-    transform: translateX(150vw) translateY(-50vh) rotate(360deg); 
+    transform: translateX(250vw) translateY(-50vh) rotate(360deg); 
   }
 }
