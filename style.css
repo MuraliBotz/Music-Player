@@ -300,7 +300,7 @@ body {
 
 .music-icon:nth-child(1) {
   left: -100%;
-  top: 70%; 
+  top: 5%; 
   font-size: 3rem;
   animation: moveDiagonal 12s linear infinite;
   animation-delay: 0s;
@@ -312,7 +312,7 @@ body {
 
 .music-icon:nth-child(2) {
   left: -100%;
-  top: 95%; 
+  top: 25%; 
   font-size: 2.5rem;
   animation: moveZigzag 12s linear infinite;
   animation-delay: 1s;
@@ -324,7 +324,7 @@ body {
 
 .music-icon:nth-child(3) {
   left: -100%;
-  top: 100%;
+  top: 45%;
   font-size: 3.5rem;
   animation: moveStraight 14s linear infinite;
   animation-delay: 0.5s;
@@ -336,7 +336,7 @@ body {
 
 .music-icon:nth-child(4) {
   left: -100%;
-  top: 100%;
+  top: 65%;
   font-size: 2rem;
   animation: moveCircular 15s linear infinite;
   animation-delay: 2s;
@@ -348,7 +348,7 @@ body {
 
 .music-icon:nth-child(5) {
   left: -100%;;
-  top: 99%;
+  top: 80%;
   font-size: 2.8rem;
   animation: moveDiagonal 13s linear infinite;
   animation-delay: 3s;
@@ -360,7 +360,7 @@ body {
 
 .music-icon:nth-child(6) {
   left: -100%;
-  top: 95%;
+  top: 55%;
   font-size: 3.2rem;
   animation: moveZigzag 11s linear infinite;
   animation-delay: 2.5s;
@@ -372,7 +372,7 @@ body {
 
 .music-icon:nth-child(7) {
   left: -100%;
-  top: 98%;
+  top: 35%;
   font-size: 2.6rem;
   animation: moveStraight 12s linear infinite;
   animation-delay: 4s;
@@ -384,7 +384,7 @@ body {
 
 .music-icon:nth-child(8) {
   left: -100%;
-  top: 99%;
+  top: 90%;
   font-size: 2.9rem;
   animation: moveCircular 13s linear infinite;
   animation-delay: 5s;
@@ -400,7 +400,7 @@ body {
     transform: translateX(0) translateY(0);
   }
   100% {
-    transform: translateX(130vw) translateY(-110vh);
+    transform: translateX(150vw) translateY(-110vh); 
   }
 }
 
@@ -418,7 +418,7 @@ body {
     transform: translateX(75vw) translateY(25vh);
   }
   100% {
-    transform: translateX(130vw) translateY(-10vh); 
+    transform: translateX(150vw) translateY(-10vh);
   }
 }
 
@@ -427,7 +427,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(130vw); 
+    transform: translateX(150vw); 
   }
 }
 
@@ -436,7 +436,6 @@ body {
     transform: translateX(0) translateY(0) rotate(0deg);
   }
   100% {
-    transform: translateX(130vw) translateY(-50vh) rotate(360deg); 
+    transform: translateX(150vw) translateY(-50vh) rotate(360deg); 
   }
 }
-
