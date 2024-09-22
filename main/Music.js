@@ -34,6 +34,11 @@ const music_list = [
         music: 'music/Alone_X_On_My_Way_X_Faded_X_Alone_Pt_2_Alan_Walker_Mashup_Aesthetic.mp3'
     },
     {
+        name: 'Alan Walker All Remix',
+        artist: 'Alan walker',
+        music: 'music/[Switching Vocals] - Alone II ✘ Lost Control ✘ On My Way _ Alan Walker (Walker The Fox 126 YT)(M4A_128K).m4a'
+    },
+    {
         name: 'Banali Badalago',
         artist: 'Sonu Nigam',
         music: 'music/BANALI.mp3'
